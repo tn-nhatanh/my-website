@@ -1,0 +1,35 @@
+.nav-item {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: rgb(194, 241, 210);
+  background-color: green;
+  border-radius: 5px;
+}
+.nav-item:hover {
+  background: rgba(red, green, blue, alpha);
+  transform: translateY(-1px);
+  /* nhích lên */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: azure;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.sidebar-section {
+  background-color: beige;
+}
+img[alt="Avatar"] {
+  width: 50px;
+  margin: 0 auto;
+  display: block;
+}
+img[alt="Logo"] {
+  width: 30px;
+}
