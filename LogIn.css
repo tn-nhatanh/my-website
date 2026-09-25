@@ -1,4 +1,4 @@
-/* .logIn {
+.logIn {
   width: 300px;
   height: 300px;
   border: 1px solid gray;
@@ -6,7 +6,7 @@
   text-align: center;
 }
 h2 {
-  color: ghostwhite;
+  color: black;
   font-family: sans-serif;
 }
 input {
@@ -16,16 +16,30 @@ input {
   border-radius: 5px;
   border: 1px solid grey;
 }
-button {
+button[name="buttonLogIn"] {
   width: 200px;
-  height: 40px;
+  height: 20px;
   margin-bottom: 10px;
   border: none;
-  background-color: chartreuse;
+  background-color: rgb(3, 64, 134);
+}
+button[name="buttonCreateAccount"] {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(235, 234, 238);
 }
 
 input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
+  width: 11px;
+  height: 11px;
   accent-color: #2563eb;
-} */
+}
+
+label {
+  font-size: small;
+}
+a {
+  font-size: small;
+}
