@@ -5,24 +5,41 @@
   border: 1px solid gray;
   border-radius: 10px;
   text-align: center;
+  background-color: rgb(218, 250, 182);
+}
+body {
+  background-image: url(image/tai-anh-phong-canh-dep-thump.webp);
+  background-size: cover;
 }
 h2 {
-  color: black;
+  color: rgb(5, 63, 3);
   font-family: sans-serif;
 }
 input {
   width: 200px;
   height: 40px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid grey;
 }
+button[name="buttonLogIn"]:hover {
+  background: rgba(red, green, blue, alpha);
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+button[name="buttonCreateAccount"]:hover {
+  background: rgba(red, green, blue, alpha);
+  transform: translateY(-1px);
+  cursor: pointer;
+}
 button[name="buttonLogIn"] {
+  color: aliceblue;
   width: 200px;
   height: 20px;
   margin-bottom: 10px;
-  border: none;
-  background-color: rgb(3, 64, 134);
+  border: 10px;
+  background-color: rgb(5, 63, 3);
+  border-radius: 10px;
 }
 button[name="buttonCreateAccount"] {
   width: 200px;
@@ -30,6 +47,7 @@ button[name="buttonCreateAccount"] {
   margin-bottom: 10px;
   border: none;
   background-color: rgb(235, 234, 238);
+  border-radius: 10px;
 }
 
 input[type="checkbox"] {
