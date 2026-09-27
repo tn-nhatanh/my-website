@@ -14,9 +14,10 @@
 .card {
   transition: all 0.3s ease;
   cursor: pointer;
-  background-color: azure;
+  background-color: rgb(244, 248, 247);
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border:;
 }
 .card:hover {
   transform: translateY(-2px);
@@ -32,4 +33,37 @@ img[alt="Avatar"] {
 }
 img[alt="Logo"] {
   width: 30px;
+  border-radius: 50%;
+}
+img[alt="avatar-user"] {
+  width: 40px;
+  border-radius: 50%;
+}
+.avatar {
+  gap: 10px;
+  align-items: center;
+  width: 10px;
+}
+.container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  gap: 20px;
+}
+.sidebar-section {
+  width: 300px;
+  border-radius: 8px;
+  margin-right: 0;
+}
+.section {
+  width: 100%;
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(218, 250, 182);
 }
