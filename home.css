@@ -17,7 +17,8 @@
   background-color: rgb(244, 248, 247);
   margin-top: 20px;
   border-radius: 10px;
-  border:;
+  border-color: aquamarine;
+  border: 5px;
 }
 .card:hover {
   transform: translateY(-2px);
@@ -66,4 +67,15 @@ img[alt="avatar-user"] {
 
 body {
   background-color: rgb(218, 250, 182);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main[class="content"] {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
