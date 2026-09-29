@@ -3,7 +3,13 @@
   cursor: pointer;
   color: rgb(194, 241, 210);
   background-color: green;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin-left: 0;
+  padding: 10px 10px;
+  border: none;
+}
+.icon-logo {
+  margin-right: 0;
 }
 .nav-item:hover {
   background: rgba(red, green, blue, alpha);
@@ -11,13 +17,30 @@
   /* nhích lên */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
+.nav-link {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  gap: 60px;
+  flex: 1;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  background-color: rgb(35, 68, 2);
+  gap: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
 .card {
   transition: all 0.3s ease;
   cursor: pointer;
   background-color: rgb(244, 248, 247);
   margin-top: 20px;
   border-radius: 10px;
-  border:;
+  border-color: aquamarine;
+  border: 5px;
 }
 .card:hover {
   transform: translateY(-2px);
@@ -27,9 +50,12 @@
   background-color: beige;
 }
 img[alt="Avatar"] {
-  width: 50px;
+  width: 70px;
   margin: 0 auto;
   display: block;
+  border: 5px solid green;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 img[alt="Logo"] {
   width: 30px;
@@ -66,4 +92,44 @@ img[alt="avatar-user"] {
 
 body {
   background-color: rgb(218, 250, 182);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main[class="content"] {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.name {
+  text-align: center;
+  border: 3px solid green;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-left: px;
+}
+.infor {
+  text-align: center;
+  border: 3px solid green;
+  border-radius: 10px;
+  padding-bottom: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-item-Addpost {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.Friend-list {
+  text-align: center;
+  background-color: chartreuse;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+.Friend {
+  list-style-type: none;
 }
