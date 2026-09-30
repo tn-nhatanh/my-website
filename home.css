@@ -31,6 +31,9 @@
   gap: 50px;
   padding: 10px 20px;
   border-radius: 10px;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
 }
 
 .card {
@@ -99,10 +102,6 @@ body {
   padding: 0;
 }
 main[class="content"] {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
 }
 .name {
   text-align: center;
@@ -132,4 +131,7 @@ main[class="content"] {
 }
 .Friend {
   list-style-type: none;
+}
+.video-Music {
+  width: 100px;
 }
