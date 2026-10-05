@@ -162,3 +162,57 @@ footer ul li {
   font-size: 0.9rem;
   text-align: center;
 }
+.comment-post {
+  font-size: 30px;
+}
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button-like {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.like-checkbox {
+  display: none;
+}
+.like-post {
+  cursor: pointer;
+  color: #65676b;
+  font-size: 25px;
+}
+.like-post .icon-liked {
+  display: none;
+}
+.like-checkbox:checked + .like-post {
+  color: #0866ff;
+}
+.like-checkbox:checked + .like-post .icon-like {
+  display: none;
+}
+.like-checkbox:checked + .like-post .icon-liked {
+  display: inline;
+}
+
+.save-checkbox {
+  display: none;
+}
+.save-post {
+  cursor: pointer;
+  color: #65676b;
+  font-size: 28px;
+}
+.save-post .icon-saved {
+  display: none;
+}
+.save-checkbox:checked + .save-post {
+  color: #c1f30b;
+}
+.save-checkbox:checked + .save-post .icon-save {
+  display: none;
+}
+.save-checkbox:checked + .save-post .icon-saved {
+  display: inline;
+}
