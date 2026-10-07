@@ -3,204 +3,203 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="home.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+    <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="section">
-        <div class="navbar">
-          <img class="icon-logo" src="/image/IMG_1873.JPG" alt="Logo" />
-          <nav class="nav-link">
-            <button class="nav-item" onclick="">
-              <i class="fa-solid fa-house"></i> Home
-            </button>
-            <button class="nav-item">
-              <i class="fa-solid fa-check"></i> Following
-            </button>
-            <button class="nav-item">
-              <i class="fa-solid fa-video"></i> Videos
-            </button>
-            <button class="nav-item">
-              <i class="fa-solid fa-user-group"></i> Friends
-            </button>
-            <button class="nav-item">
-              <i class="fa-solid fa-language"></i> Language
-            </button>
-            <button class="nav-item-Addpost">
-              <i class="fa-solid fa-plus"></i>
-            </button>
-          </nav>
+    <header class="header">
+      <div class="header-top">
+        <div class="items-center">
+          <div class="logo"></div>
+          <div
+            class="weather-placeholder"
+            data-module="weather-header"
+            data-date_time_today="Thứ 3, 06/10/2026"
+          >
+            <a href="" target="_blank"
+              ><div><span>Hà Nội</span><span>Thứ 3, 06/10/2026</span></div>
+              <span>24 C</span>
+            </a>
+          </div>
         </div>
-        <main class="content">
-          <article class="card">
-            <div class="heding">
-              <div class="avatar">
-                <img src="/image/1.jpg" alt="avatar-user" />
-                <span>Domixue</span>
-              </div>
-              <span class="card-tag"></span>
-            </div>
-            <a href="" class="title-card"></a>
-            <p>
-              Bầu trời chiều nay đẹp quá mọi người ơi! 🌅✨ Chiều nay đi dạo làm
-              được vài tấm ảnh xịn xịn.
-            </p>
-            <img width="675" src="/image/download (2).jpg" alt="image" />
-            <div class="post-actions">
-              <input type="checkbox" class="like-checkbox" id="like-1" />
-              <label for="like-1" class="like-post">
-                <i class="fa-regular fa-thumbs-up icon-like"></i>
-                <i class="fa-solid fa-thumbs-up icon-liked"></i>
-              </label>
-
-              <input type="checkbox" id="save-1" class="save-checkbox" />
-              <label for="save-1" class="save-post">
-                <i class="fa-regular fa-bookmark icon-save"></i>
-                <i class="fa-solid fa-bookmark icon-saved"></i>
-              </label>
-
-              <a href="" class="comment-post">
-                <i class="fa-regular fa-comment"></i>
-              </a>
-            </div>
-          </article>
-          <article class="card">
-            <div class="heding">
-              <div class="avatar">
-                <img src="/image/2.jpg" alt="avatar-user" />
-                <span>Nger</span>
-              </div>
-              <span class="card-tag">Âm nhạc</span>
-            </div>
-            <a href="" class="title-card">Hi</a>
-            <p>
-              Giai điệu này nghe dính thực sự, nghe đi nghe lại cả ngày không
-              chán 🎶👇
-            </p>
-            <video
-              src="/image/v14044g50000d9tm48fog65leg4su0ig.mp4"
-              controls
-              playsinline
-              width="675"
-              muted
-              loop
-              autoplay
-              class="Video-Music"
-            ></video>
-            <div class="post-actions">
-              <input type="checkbox" class="like-checkbox" id="like-2" />
-              <label for="like-2" class="like-post">
-                <i class="fa-regular fa-thumbs-up icon-like"></i>
-                <i class="fa-solid fa-thumbs-up icon-liked"></i>
-              </label>
-
-              <input type="checkbox" id="save-2" class="save-checkbox" />
-              <label for="save-2" class="save-post">
-                <i class="fa-regular fa-bookmark icon-save"></i>
-                <i class="fa-solid fa-bookmark icon-saved"></i>
-              </label>
-
-              <a href="" class="comment-post">
-                <i class="fa-regular fa-comment"></i>
-              </a>
-            </div>
-          </article>
-          <article class="card">
-            <div class="heding">
-              <div class="avatar">
-                <img src="/image/3.jpg" alt="avatar-user" />
-                <span>ThinkSuy</span>
-              </div>
-              <span class="card-tag"></span>
-            </div>
-            <a href="" class="title-card"></a>
-            <p>
-              Hôm nay là một ngày tuyệt vời để bắt đầu những dự án mới! Chúc mọi
-              người một ngày làm việc hiệu quả và tràn đầy năng lượng 🚀💪
-            </p>
-            <div class="post-actions">
-              <input type="checkbox" class="like-checkbox" id="like-3" />
-              <label for="like-3" class="like-post">
-                <i class="fa-regular fa-thumbs-up icon-like"></i>
-                <i class="fa-solid fa-thumbs-up icon-liked"></i>
-              </label>
-
-              <input type="checkbox" id="save-3" class="save-checkbox" />
-              <label for="save-3" class="save-post">
-                <i class="fa-regular fa-bookmark icon-save"></i>
-                <i class="fa-solid fa-bookmark icon-saved"></i>
-              </label>
-
-              <a href="" class="comment-post">
-                <i class="fa-regular fa-comment"></i>
-              </a>
-            </div>
-          </article>
-          <article class="card">
-            <div class="heding">
-              <div class="avatar">
-                <img src="/image/4.jpg" alt="avatar-user" />
-                <span>IDK</span>
-              </div>
-              <span class="card-tag"> </span>
-            </div>
-            <a href="" class="title-card">Đồ ăn</a>
-            <p>
-              Trời mưa/nắng thế này mà được làm một nồi lẩu nóng hổi thì còn gì
-              bằng 🍲✨ Mời cả nhà cùng ăn tối với mình nhé!
-            </p>
-            <img src="/image/download (3).jpg" alt="image" width="675" />
-            <div class="post-actions">
-              <input type="checkbox" class="like-checkbox" id="like-4" />
-              <label for="like-4" class="like-post">
-                <i class="fa-regular fa-thumbs-up icon-like"></i>
-                <i class="fa-solid fa-thumbs-up icon-liked"></i>
-              </label>
-
-              <input type="checkbox" id="save-4" class="save-checkbox" />
-              <label for="save-4" class="save-post">
-                <i class="fa-regular fa-bookmark icon-save"></i>
-                <i class="fa-solid fa-bookmark icon-saved"></i>
-              </label>
-
-              <a href="" class="comment-post">
-                <i class="fa-regular fa-comment"></i>
-              </a>
-            </div>
-          </article>
-        </main>
+        <div class="dt-flex">
+          <a href="">Fica</a>
+          <a href="">DTiNews</a>
+          <a href="">Nội vụ & Xã hội</a>
+        </div>
+        <div class="login">
+          <div class="button-login"><button>Đăng nhập</button></div>
+        </div>
       </div>
-
-      <aside class="sidebar-section">
-        <div class="profile-avatar">
-          <img src="/image/download (4).jpg" alt="Avatar" />
-        </div>
-        <div class="name">Nhật Anh</div>
-        <div class="infor">
-          <ul>
-            Infor
-          </ul>
-          <li>🎓 Sinh viên Đại học</li>
-          <li>💻 Developer</li>
-          <li>📍 Hà Nội, Việt Nam</li>
-          <li>✉️ nhatanh@gmail.com</li>
-        </div>
-      </aside>
-    </div>
-    <footer class="footer">
-      <div>
-        <ul>
-          <li>Name</li>
-          <li>Infor</li>
-          <li>123445567789900</li>
-          <li>abcbabcbacbcac</li>
-        </ul>
-      </div>
-    </footer>
+    </header>
+    <nav class="nav-website">
+      <ol>
+        <li class="nav-home">
+          <a href="" class="link-home"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li class="Video">
+          <a href="" class="logo-video"><img src="" alt="" /></a>
+        </li>
+        <li class="News">
+          <a href=""><span class="text-nav">Mới nhất</span></a>
+        </li>
+        <li class="World">
+          <a href="" class="world-news"
+            ><span class="text-nav">Thế giới</span>
+          </a>
+          <ol class="list-world">
+            <li><a href="" class="list-nav">Quân sự</a></li>
+            <li><a href="" class="list-nav">Phân tích - bình luận</a></li>
+            <li><a href="" class="list-nav">Thế giới đó đây</a></li>
+            <li><a href="" class="list-nav">Kiều bào</a></li>
+          </ol>
+        </li>
+        <li class="Current Affairs">
+          <a href="" class=""><span class="text-nav">Thời sự</span></a>
+          <ol>
+            <li class="list-nav"><a href="">Chính trị</a></li>
+            <li class="list-nav">
+              <a href="">Đưa nghị quyết của đảng vào cuộc sống</a>
+            </li>
+            <li class="list-nav"><a href="">Bầu cử đại biểu quốc hội</a></li>
+            <li class="list-nav"><a href="">Học tập Bác</a></li>
+            <li class="list-nav"><a href="">Môi trường</a></li>
+            <li class="list-nav"><a href="">Giao thông</a></li>
+            <li class="list-nav"><a href="">Nóng trên mạng</a></li>
+          </ol>
+        </li>
+        <li class="Law">
+          <a href="" class=""><span class="text-nav">Pháp luật</span></a>
+          <ol>
+            <li class="list-nav"><a href="">Hồ sơ vụ án</a></li>
+            <li class="list-nav"><a href="">Pháp đình</a></li>
+          </ol>
+        </li>
+        <li class="Health">
+          <a href="" class=""><span class="text-nav">Sức khỏe</span></a>
+          <ol>
+            <li class="list-nav"><a href="">Ung Thư</a></li>
+            <li class="list-nav"><a href="">Sống Khỏe</a></li>
+            <li class="list-nav"><a href="">Thận</a></li>
+            <li class="list-nav"><a href="">Tầm soát - chẩn đoán</a></li>
+            <li class="list-nav"><a href="">Sinh Sản</a></li>
+            <li class="list-nav"><a href="">Ngoại thần kinh</a></li>
+            <li class="list-nav">
+              <a href="">Thuốc và các giải pháp hỗ trợ</a>
+            </li>
+            <li class="list-nav"><a href="">Chấm dứt cơn đau</a></li>
+            <li class="list-nav"><a href="">Tư vấn y khoa</a></li>
+          </ol>
+        </li>
+        <li class="Lifestyle">
+          <a href="" class=""><span class="text-nav">Đời sống</span></a>
+          <ol>
+            <li class="list-nav"><a href="">Cộng đồng</a></li>
+            <li class="list-nav"><a href="">Thượng Lưu</a></li>
+            <li class="list-nav"><a href="">Nhà Đẹp</a></li>
+            <li class="list-nav"><a href="">Giới Trẻ</a></li>
+            <li class="list-nav"><a href="">Chợ ONLINE</a></li>
+            <li class="list-nav"><a href="">Xổ Số</a></li>
+            <li class="list-nav">
+              <a href="">Cuộc Thi ảnh Việt Nam Trong Tôi</a>
+            </li>
+          </ol>
+        </li>
+        <li class="Travel">
+          <a href="" class=""><span class="text-nav">Du Lịch</span></a>
+          <ol>
+            <li class="list-nav"><a href="">Tin Tức</a></li>
+            <li class="list-nav"><a href="">Khám Phá</a></li>
+            <li class="list-nav"><a href="">Món Ngon</a></li>
+            <li class="list-nav"><a href="">Biển Đẹp</a></li>
+            <li class="list-nav"><a href="">Video</a></li>
+            <li class="list-nav"><a href="">Tour Hay</a></li>
+          </ol>
+        </li>
+        <li class="Business">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+        <li class="Real Estate">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+        <li class="Sports">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+        <li class="Entertainment">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+        <li class="Education">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+        <li class="Cars / Vehicles">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+        <li class="Internal Affairs">
+          <a href="" class=""><span class="text-nav"></span></a>
+          <ol>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+            <li class="list-nav"><a href=""></a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
   </body>
 </html>
