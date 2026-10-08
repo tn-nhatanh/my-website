@@ -1,218 +1,173 @@
-.nav-item {
-  transition: all 0.3s ease;
-  cursor: pointer;
-  color: rgb(194, 241, 210);
-  background-color: green;
-  border-radius: 10px;
-  margin-left: 0;
-  padding: 10px 10px;
-  border: none;
-}
-.icon-logo {
-  margin-right: 0;
-}
-.nav-item:hover {
-  background: rgba(red, green, blue, alpha);
-  transform: translateY(-1px);
-  /* nhích lên */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-.nav-link {
-  justify-content: space-around;
-  text-align: center;
-  display: flex;
-  gap: 60px;
-  flex: 1;
-}
-.navbar {
-  align-items: center;
-  display: flex;
-  background-color: rgb(35, 68, 2);
-  gap: 50px;
-  padding: 10px 20px;
-  border-radius: 10px;
-  z-index: 1000;
-  position: sticky;
-  top: 0;
-}
-
-.card {
-  transition: all 0.3s ease;
-  cursor: pointer;
-  background-color: rgb(244, 248, 247);
-  margin-top: 20px;
-  border-radius: 10px;
-  border: 3px solid rgb(1, 80, 1);
-}
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-.sidebar-section {
-  background-color: beige;
-}
-img[alt="Avatar"] {
-  width: 70px;
-  margin: 0 auto;
-  display: block;
-  border: 5px solid green;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-img[alt="Logo"] {
-  width: 30px;
-  border-radius: 50%;
-}
-img[alt="avatar-user"] {
-  width: 40px;
-  border-radius: 50%;
-}
-.avatar {
-  gap: 10px;
-  align-items: center;
-  width: 10px;
-}
-.container {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  padding: 10px 20px;
-  gap: 20px;
-}
-.sidebar-section {
-  width: 300px;
-  border-radius: 8px;
-  margin-right: 0;
-}
-.section {
-  width: 100%;
-  border-radius: 10px;
 }
 
 body {
-  background-color: rgb(218, 250, 182);
-}
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-main[class="content"] {
-  width: 100%;
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.name {
-  text-align: center;
-  border: 3px solid green;
-  margin-top: 10px;
-  border-radius: 10px;
-  padding-left: px;
-}
-.infor {
-  text-align: center;
-  border: 3px solid green;
-  border-radius: 10px;
-  padding-bottom: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  list-style: none;
-}
-.nav-item-Addpost {
-  padding: 10px 10px;
-  border-radius: 10px;
-  border: none;
-}
-.Friend-list {
-  text-align: center;
-  background-color: chartreuse;
-  border-radius: 5px;
-  padding: 5px 5px;
-}
-.Friend {
-  list-style-type: none;
-}
-.video-Music {
-  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-footer {
-  background-color: #ffffff;
-  padding: 20px 0;
-  margin-top: 30px;
-  border-top: 1px solid #e2e8f0;
+/*  Header  */
+.header {
+  position: relative;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  z-index: 10;
 }
-
-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
+.header-top {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-footer ul li {
-  color: #475569;
-  font-size: 0.9rem;
-  text-align: center;
-}
-.comment-post {
-  font-size: 30px;
-}
-.post-actions {
+.items-center {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.button-like {
-  display: inline-flex;
-  align-items: center;
-  margin-top: 10px;
-}
-.like-checkbox {
-  display: none;
-}
-.like-post {
-  cursor: pointer;
-  color: #65676b;
-  font-size: 25px;
-}
-.like-post .icon-liked {
-  display: none;
-}
-.like-checkbox:checked + .like-post {
-  color: #0866ff;
-}
-.like-checkbox:checked + .like-post .icon-like {
-  display: none;
-}
-.like-checkbox:checked + .like-post .icon-liked {
-  display: inline;
+
+.logo img {
+  height: 38px;
+  display: block;
 }
 
-.save-checkbox {
-  display: none;
+.weather-placeholder a {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #333;
 }
-.save-post {
+
+.day-Hanoi {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.day-Hanoi .Hanoi {
+  font-weight: bold;
+  color: #222;
+}
+
+.day-Hanoi .Day {
+  color: #666;
+}
+
+.weather-placeholder .temp {
+  font-weight: bold;
+  font-size: 13px;
+  color: #222;
+}
+.dt-flex {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.dt-flex a {
+  text-decoration: none;
+  color: #444;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.dt-flex a:hover {
+  color: #007bff;
+}
+
+.button-login button {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 13px;
   cursor: pointer;
-  color: #65676b;
-  font-size: 28px;
+  transition: all 0.2s;
 }
-.save-post .icon-saved {
+
+.button-login button:hover {
+  background-color: #e8e8e8;
+}
+
+/* Nav */
+
+.nav-website ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-website {
+  background-color: #fff;
+  border-bottom: 2px solid #007bff;
+  font-family: Arial, sans-serif;
+  position: relative;
+  z-index: 100;
+}
+
+.nav-website > ol {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav-website > ol > li {
+  position: relative;
+}
+
+.nav-website > ol > li > a {
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: #222;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+
+.nav-website > ol > li:hover > a {
+  color: #007bff;
+}
+.nav-website ol ol {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 4px 4px;
+  border-top: 2px solid #007bff;
+  padding: 6px 0;
+  z-index: 200;
 }
-.save-checkbox:checked + .save-post {
-  color: #c1f30b;
+.nav-website ol ol li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #444;
+  font-size: 13px;
+  font-weight: normal;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
-.save-checkbox:checked + .save-post .icon-save {
-  display: none;
+.nav-website ol ol li a:hover {
+  background-color: #f5f5f5;
+  color: #007bff;
 }
-.save-checkbox:checked + .save-post .icon-saved {
-  display: inline;
+.nav-website > ol > li:hover > ol {
+  display: block;
 }
