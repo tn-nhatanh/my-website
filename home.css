@@ -231,26 +231,22 @@ footer {
   max-width: 500px;
 }
 
-/* Thiết lập bảng và cố định bố cục */
 .table {
   width: 100%;
   table-layout: fixed;
 }
 
-/* Cột bên trái chứa bài viết lớn (chiếm phần lớn không gian) */
 .table td:first-child {
   width: 5%;
   vertical-align: top;
 }
 
-/* Các cột bên phải chứa danh sách ảnh nhỏ */
 .table td.mini-table {
   width: 22.5%;
   vertical-align: top;
   padding: 4px;
 }
 
-/* Thu nhỏ ảnh xe cho hợp lý và giữ tỷ lệ */
 .mini-table .img-mini img {
   width: 150px;
   object-fit: cover;
