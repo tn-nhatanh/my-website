@@ -98,6 +98,10 @@ body {
 
 /* Nav */
 
+.nav-website a {
+  text-transform: uppercase;
+}
+
 .nav-website ol {
   list-style: none;
   margin: 0;
@@ -108,15 +112,13 @@ body {
   background-color: #fff;
   border-bottom: 2px solid #007bff;
   font-family: Arial, sans-serif;
-  position: relative;
-  z-index: 100;
 }
 
 .nav-website > ol {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -146,11 +148,9 @@ body {
   left: 0;
   min-width: 180px;
   background-color: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 0 0 4px 4px;
   border-top: 2px solid #007bff;
   padding: 6px 0;
-  z-index: 200;
 }
 .nav-website ol ol li a {
   display: block;
