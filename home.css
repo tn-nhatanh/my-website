@@ -95,6 +95,11 @@ body {
 .button-login button:hover {
   background-color: #e8e8e8;
 }
+.login {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
 /* Nav */
 
