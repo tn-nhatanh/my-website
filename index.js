@@ -1,13 +1,13 @@
 function newDate() {
   const d = new Date();
   const weekday = [
+    "Chủ Nhật",
     "Thứ 2",
     "Thứ 3",
     "Thứ 4",
     "Thứ 5",
     "Thứ 6",
     "Thứ 7",
-    "Chủ Nhật",
   ];
   const monthNumber = [
     "1",
