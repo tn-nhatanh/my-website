@@ -325,3 +325,16 @@ footer {
   padding-top: 10px;
   padding-right: 25px;
 }
+
+.item {
+  padding: 270px 250px 20px 10px;
+  background-color: #59eee2;
+  list-style: none;
+  border-radius: 9px;
+}
+.slide{
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  
+}
