@@ -357,6 +357,7 @@ footer {
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid rgb(2, 90, 161);
+  border-radius: 0px 0px 16px 16px;
 
   display: flex;
   align-items: flex-end;
