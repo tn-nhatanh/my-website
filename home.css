@@ -328,25 +328,28 @@ footer {
 
 .item {
   flex: 0 0 380px;
-  height: 250px;
+  height: 310px;
   background-color: #ffffff;
   list-style: none;
   border-radius: 16px;
   overflow: hidden;
 
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
   display: flex;
   flex-direction: column;
   padding: 0;
 
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition:
     transform 0.3s ease,
-    box-shadow 0.3s ease;
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .item img {
   width: 100%;
-  height: 80%;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -356,8 +359,6 @@ footer {
   padding: 5px 5px 0px 10px;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid rgb(2, 90, 161);
-  border-radius: 0px 0px 16px 16px;
 
   display: flex;
   align-items: flex-end;
@@ -365,35 +366,43 @@ footer {
 }
 
 .text-item {
-  color: #111;
+  font-family: Sans-Serif;
   font-weight: 600;
+  color: #111;
   font-size: 15px;
   line-height: 1.4;
   text-align: left;
+  padding: 3px;
 }
-
 .item:hover {
   cursor: pointer;
   transform: translateY(-6px);
+  border-color: rgb(3, 152, 172);
+  box-shadow: 0 12px 24px rgba(3, 152, 172, 0.15);
 }
 
 .slide {
-  padding: 20px 0;
+  padding: 20px 20px;
   display: flex;
   gap: 30px;
   overflow-x: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
+
+  background-color: #fafbfc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
 }
 
 .slide-container {
+  padding-top: 20px;
   display: flex;
   align-items: center;
-  max-width: 1500px;
+  max-width: 1900px;
   overflow: hidden;
   margin: 0 auto;
+  gap: 10px;
 }
-
 .button-slider {
   padding: 10px 15px;
   border-radius: 50%;
@@ -401,4 +410,12 @@ footer {
   border: 2px solid white;
   cursor: pointer;
   z-index: 10;
+}
+
+.button-slider:hover {
+  background-color: #8fbae6;
+}
+
+.text-item:hover {
+  color: #0066cc;
 }
