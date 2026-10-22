@@ -146,6 +146,7 @@ body {
 .language li:hover {
   color: #0066cc;
   background-color: #e8e8e8;
+  cursor: pointer;
 }
 /* Nav */
 

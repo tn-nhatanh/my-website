@@ -9,26 +9,12 @@ function newDate() {
     "Thứ 6",
     "Thứ 7",
   ];
-  const monthNumber = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-  ];
-  let date = d.getDate();
-  let month = monthNumber[d.getMonth()];
-  let year = d.getFullYear();
-  let day = weekday[d.getDay()];
+  const date = d.getDate();
+  const month = d.getMonth();
+  const year = d.getFullYear();
+  const day = weekday[d.getDay()];
   document.getElementById("day-header").innerHTML =
-    day + ", " + date + "/" + month + "/" + year;
+    day + ", " + date + "/" + (month + 1) + "/" + year;
 }
 
 newDate();
@@ -46,3 +32,28 @@ function slider() {
 }
 
 slider();
+
+function ClickLogIn() {
+  const link = document.getElementById("linkbuttonlogin");
+
+  link.addEventListener("click", function (event) {
+    const result = confirm("Bạn có muốn chuyển sang trang đăng nhập không?");
+
+    if (!result) {
+      event.preventDefault(); //hủy chuyển trang
+    }
+  });
+}
+ClickLogIn();
+
+function languageText() {
+  const btnEnglish = document.getElementById("tiengAnh");
+  const btnVietNamese = document.getElementById("tiengViet");
+  btnEnglish.addEventListener("click", function () {
+    document.getElementById("btnTextLanguage").innerText = "Tiếng Anh";
+  });
+  btnVietNamese.addEventListener("click", function () {
+    document.getElementById("btnTextLanguage").innerText = "Tiếng Việt";
+  });
+}
+languageText();
