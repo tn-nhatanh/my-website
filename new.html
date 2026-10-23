@@ -12,48 +12,7 @@
     />
   </head>
   <body>
-    <header class="header">
-      <div class="header-top">
-        <div class="items-center">
-          <div class="logo">
-            <img src="./image/logo-3png-1752569761698.webp" alt="" />
-          </div>
-          <div
-            class="weather-placeholder"
-            data-module="weather-header"
-            data-date_time_today="Thứ 3, 06/10/2026"
-          >
-            <a href="" target="_blank"
-              ><div class="day-Hanoi">
-                <span class="Hanoi">Hà Nội</span>
-                <span class="Day" id="day-header"></span>
-              </div>
-              <span>24 C</span>
-            </a>
-          </div>
-        </div>
-        <div class="dt-flex">
-          <a href="">Fica</a>
-          <a href="">DTiNews</a>
-          <a href="">Nội vụ & Xã hội</a>
-        </div>
-        <div class="language">
-          <span id="btnTextLanguage">Ngôn ngữ</span>
-          <ul>
-            <li class="language-list" id="tiengViet">Tiếng Việt</li>
-            <li class="language-list" id="tiengAnh">Tiếng Anh</li>
-          </ul>
-        </div>
-        <div class="login">
-          <i class="fa-regular fa-user"></i>
-          <div class="button-login">
-            <a href="LogIn.html" id="linkbuttonlogin"
-              ><button type="button">Đăng nhập</button></a
-            >
-          </div>
-        </div>
-      </div>
-    </header>
+    <header class="header" id="headerID"></header>
     <nav class="nav-website">
       <ol>
         <li class="nav-home">
@@ -216,6 +175,7 @@
     </nav>
     <div><h1>Tin mới nhất</h1></div>
     <div id="posts-list"></div>
+    <script src="headerAndNav.js"></script>
     <script src="new.js"></script>
     <script src="index.js"></script>
   </body>
