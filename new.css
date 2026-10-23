@@ -223,3 +223,64 @@ body {
 .nav-website > ol > li:hover > ol {
   display: block;
 }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.titleNew {
+  margin-top: 30px;
+  font-size: 25px;
+}
+.ListcardInNew {
+  margin: 0 auto;
+  max-width: 950px;
+  border-left: 2px solid #e3e6e8;
+  border-right: 2px solid #e3e6e8;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.cardInNew {
+  display: flex;
+  margin: 0px 0px 30px 20px;
+  position: relative;
+}
+.cardInNew::before {
+  content: "";
+  position: absolute;
+  left: -47px;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: #015e53;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.imgCard {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.time-card {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.title a {
+  text-decoration: none;
+  color: #222;
+}
+.title {
+  margin-bottom: 10px;
+}
+.content {
+  font-size: 15px;
+}
+.title a:hover h3 {
+  color: #0066cc;
+}
+.cardInNew .imgCard {
+  width: 200px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 4px;
+}

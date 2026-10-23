@@ -52,13 +52,13 @@ function renderPosts() {
   htmlContent = "";
   for (let i = 0; i < posts.length; i++) {
     htmlContent += `
-    <div>
-        <div>
+    <div class="cardInNew">
+        <div class="text">
             <div class="time-card"><span>${posts[i].time}</span></div>
             <div class="title"><a href="${posts[i].link}"><h3>${posts[i].title}</h3></a></div>
             <div class="content"><p>${posts[i].content}</p></div>
         </div>
-        <img src="${posts[i].img}" alt="">
+        <img src="${posts[i].img}" alt="" class="imgCard">
     </div>`;
   }
   document.getElementById("posts-list").innerHTML = htmlContent;
