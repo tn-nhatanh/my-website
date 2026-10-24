@@ -338,3 +338,46 @@ function languageText() {
   });
 }
 languageText();
+const footer = [
+  { logo: "image/logo-3png-1752569761698.webp", class: "logo" },
+  { line: 1, text: "Cơ quan của Bộ Nội vụ" },
+  { line: 2, text: "Tổng biên tập: Phạm Tuấn Anh" },
+  {
+    line: 3,
+    text: "Giấy phép hoạt động báo điện tử Dân trí số 15/GP-BVHTTDL Hà Nội, ngày 14-4-2025",
+  },
+  {
+    line: 4,
+    text: "Địa chỉ tòa soạn: Số 48 ngõ 2 phố Giảng Võ, phường Giảng Võ, thành phố Hà Nội",
+  },
+  { line: 5, text: "Điện thoại: 024-3736-6491. Hotline HN: 0973-567-567" },
+  {
+    line: 6,
+    text: "Văn phòng đại diện miền Nam: Số 51-53 Võ Văn Tần, phường Xuân Hòa, thành phố Hồ Chí Minh",
+  },
+  { line: 7, text: "Hotline TPHCM: 0974-567-567" },
+  { line: 8, text: "Email: info@dantri.com.vn" },
+];
+function renderFooter() {
+  let logo = "";
+  let textInLine = "";
+  let text = "";
+
+  for (let i = 0; i < footer.length; i++) {
+    if (i === 0) {
+      logo = `
+  <div class="${footer[i].class}">
+    <img src="${footer[i].logo}" alt="" />
+  </div>
+      `;
+    } else {
+      // Sửa từ </br> thành <br>
+      textInLine += footer[i].text + `<br>`;
+    }
+  }
+
+  text = `<p class="text-infor">${textInLine}</p>`;
+  document.getElementById("footerID").innerHTML = logo + text;
+}
+
+renderFooter();
