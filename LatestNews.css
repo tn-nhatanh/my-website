@@ -2,11 +2,11 @@
   max-width: 900px;
   margin: 0 auto;
 }
-.titleNew {
+.titleLatestNews {
   margin-top: 30px;
   font-size: 25px;
 }
-.ListcardInNew {
+.ListcardInLatestNews {
   margin: 0 auto;
   max-width: 950px;
   border-left: 2px solid #e3e6e8;
@@ -14,12 +14,12 @@
   padding: 0px 20px;
   margin-top: 50px;
 }
-.cardInNew {
+.cardInLatestNews {
   display: flex;
   margin: 0px 0px 70px 20px;
   position: relative;
 }
-.cardInNew::before {
+.cardInLatestNews::before {
   content: "";
   position: absolute;
   left: -47px;
@@ -47,13 +47,17 @@
   margin-bottom: 10px;
   font-size: 24px;
 }
+.titlecard5 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
 .content {
   font-size: 18px;
 }
 .title a:hover h3 {
   color: #0066cc;
 }
-.cardInNew .imgCard {
+.cardInLatestNews .imgCard {
   width: 270px;
   height: 195px;
   object-fit: cover;
@@ -62,4 +66,12 @@
 
 .img5 {
   margin: 0 15px 0 -5px;
+}
+
+.titlecard5 a {
+  text-decoration: none;
+  color: #222;
+}
+.titlecard5:hover a {
+  color: red;
 }

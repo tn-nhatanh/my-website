@@ -8,31 +8,12 @@
   </head>
   <body>
     <div class="logIn">
-      <h2>Log in</h2>
-      <form action="Home.html">
-        <div>
-          <input type="text" name="username" placeholder="Username" required />
-        </div>
-        <div>
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            required
-          />
-        </div>
-        <div>
-          <label> <input type="checkbox" name="remember" /> Remember me </label>
-          <a href="ResetPassWord.html">Forgot password?</a>
-        </div>
-        <a href="Home.html"
-          ><button name="buttonLogIn" type="submit">Sign in</button></a
-        ><a href="CreateAccount.html"
-          ><button name="buttonCreateAccount" type="button">
-            Create an account
-          </button>
-        </a>
-      </form>
+      <div class="btnLogInAndBtnSignIn">
+        <button id="btnLogIn">Đăng nhập</button>
+        <button id="btnSignIn">Đăng ký</button>
+      </div>
+      <form action="Home.html" id="LoginAndSignIn"></form>
     </div>
+    <script src="LogIn.js"></script>
   </body>
 </html>

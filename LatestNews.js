@@ -101,17 +101,17 @@ function renderPosts() {
   for (let i = 0; i < posts.length; i++) {
     if ((i + 1) % 5 === 0) {
       htmlContent += `
-    <div class="cardInNew">
+    <div class="cardInLatestNews">
      <img src="${posts[i].img}" alt="" class="imgCard img5">
         <div class="text">
             <div class="time-card"><span>${posts[i].time}</span></div>
-            <div class="title"><a href="${posts[i].link}"><h3>${posts[i].title}</h3></a></div>
+            <div class="titlecard5"><a href="${posts[i].link}"><h3>${posts[i].title}</h3></a></div>
             <div class="content"><p>${posts[i].content}</p></div>
         </div>
     </div>`;
     } else {
       htmlContent += `
-    <div class="cardInNew">
+    <div class="cardInLatestNews">
         <div class="text">
             <div class="time-card"><span>${posts[i].time}</span></div>
             <div class="title"><a href="${posts[i].link}"><h3>${posts[i].title}</h3></a></div>
