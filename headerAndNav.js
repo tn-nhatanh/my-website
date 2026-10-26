@@ -57,14 +57,14 @@ const navbar = [
   },
   {
     classList: "Video",
-    img: "",
-    link: "",
+    img: "image/videodt3601-1787928329058.webp",
+    link: "video.html",
     classLink: "logo-video",
   },
   {
     classList: "News",
     title: "Mới nhất",
-    link: "new.html",
+    link: "LatestNews.html",
     classSpan: "text-nav",
   },
   {
@@ -279,7 +279,7 @@ function renderNavbar() {
     } else if (i === 1) {
       ListHTML += ` 
        <li class="${navbar[i].classList}">
-          <a href="${navbar[i].link}" class="${navbar[i].classLink}"><img src="${navbar[i].img}" alt="" /></a>
+          <a href="${navbar[i].link}" class="${navbar[i].classLink}"><img src="${navbar[i].img}" alt="" class="${navbar[i].link}"/></a>
         </li>`;
     } else {
       ListHTML += `
@@ -371,7 +371,6 @@ function renderFooter() {
   </div>
       `;
     } else {
-      // Sửa từ </br> thành <br>
       textInLine += footer[i].text + `<br>`;
     }
   }
