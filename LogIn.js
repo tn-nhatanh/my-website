@@ -1,5 +1,5 @@
-const btnSignIn = document.getElementById("btnSignIn");
-const btnLogIn = document.getElementById("btnLogIn");
+const btnSignIn = document.getElementById("aSignIn");
+const btnLogIn = document.getElementById("aLogIn");
 const LogIn = `
 <div class="login-container">
     <div class="input-group one">
