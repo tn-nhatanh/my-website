@@ -199,7 +199,7 @@ const navbar = [
     link: "",
     classSpan: "text-nav",
     Children: [
-      { link: "", title: "BÓNG ĐÁ", classItem: "list-nav" },
+      { link: "Soccer.html", title: "BÓNG ĐÁ", classItem: "list-nav" },
       { link: "", title: "PICKLEBALL", classItem: "list-nav" },
       { link: "", title: "TENNIS", classItem: "list-nav" },
       { link: "", title: "GOLF", classItem: "list-nav" },
@@ -264,7 +264,7 @@ function renderNavbar() {
     miniList = "";
     if (navbar[i].Children && navbar[i].Children.length > 0) {
       for (let j = 0; j < navbar[i].Children.length; j++) {
-        miniList += `<li class="list-nav"><a href="">${navbar[i].Children[j].title}</a></li>`;
+        miniList += `<li class="list-nav"><a href="${navbar[i].Children[j].link}">${navbar[i].Children[j].title}</a></li>`;
       }
     } else {
       miniList = "";
