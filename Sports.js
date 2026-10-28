@@ -136,11 +136,11 @@ function slider() {
   const slide = document.querySelector(".card-slider");
 
   document.getElementById("next").onclick = () => {
-    slide.scrollLeft += 300;
+    slide.scrollLeft += 200;
   };
 
   document.getElementById("prev").onclick = () => {
-    slide.scrollLeft -= 300;
+    slide.scrollLeft -= 200;
   };
 }
 

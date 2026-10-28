@@ -87,7 +87,7 @@
   margin: 20px auto;
   font-family: Arial;
   box-sizing: border-box;
-  background-color: #e3e5e8;
+  background: #f4f6fa;
   border-radius: 12px;
   padding-top: 10px;
 }
@@ -103,17 +103,23 @@
   font-weight: bold;
   font-size: 18px;
   margin: 0;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .head-slider a {
   color: #008837;
   text-decoration: none;
-  font-size: 14px;
   margin-right: 20px;
   padding: 5px;
-  border: 1px solid black;
-  border-radius: 12px;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: rgba(230, 230, 230, 1);
 }
 
 .card-slider {
@@ -122,10 +128,12 @@
   gap: 12px;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 20px;
+  padding-bottom: 20px;
   border-radius: 13px;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  margin: 0px 10px;
+  margin-bottom: 10px;
 }
 
 .card-slider::-webkit-scrollbar {
@@ -134,18 +142,22 @@
 
 .card-score {
   flex: 0 0 auto;
-  width: 180px;
+  width: 200px;
   background-color: #f7f7f7;
   border-radius: 8px;
   padding: 10px;
   box-sizing: border-box;
+  padding: 0 12px 10px;
+  background: #fff;
+  border-radius: 4px;
 }
 
 .time-day {
   font-size: 12px;
   color: #666;
-  margin: 0 0 8px 0;
+  margin: 10px 0 10px 0;
   border-bottom: 1px solid gray;
+  padding: 5px;
 }
 
 .Teams1,
@@ -153,7 +165,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .Teams1 img,
@@ -180,6 +192,14 @@
 .body-slider {
   display: flex;
   align-items: center;
-  background-color: #e3e5e8;
+  background-color: #f4f6fa;
   border-radius: 12px;
+}
+
+#prev,
+#next {
+  background-color: #015e53;
+  padding: 20px 5px;
+  color: #fff;
+  font-weight: 700;
 }
