@@ -1,0 +1,185 @@
+.News-sports {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.soccer-1 {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.card-big {
+  flex: 1.3;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eaeaea;
+}
+
+.card-big img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.title-card-big {
+  font-size: 25px;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+  line-height: 1.35;
+  margin-bottom: 10px;
+}
+
+.title-card-big:hover {
+  color: #0906df;
+}
+
+.text-card {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+
+  overflow: hidden;
+}
+
+.list-mini-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mini-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.mini-card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.mini-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.text-mini-card {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+  line-height: 1.35;
+  overflow: hidden;
+}
+
+.text-mini-card:hover {
+  color: #0906df;
+}
+
+#soccer-2ID {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1000px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+#soccer-2ID .card-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#soccer-2ID .card-list img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+#soccer-2ID .card-list a {
+  text-decoration: none;
+  max-width: 220px;
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow: hidden;
+}
+
+#soccer-2ID .card-list a:hover {
+  color: #007bff;
+}
+
+#CardListContainerID {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#CardListContainerID .card-Container {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+#CardListContainerID .card-Container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+#CardListContainerID .info-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#CardListContainerID .info-box a {
+  text-decoration: none;
+  color: #111;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+#CardListContainerID .info-box a:hover {
+  color: #007bff;
+}
+
+#CardListContainerID .info-box p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+  overflow: hidden;
+}
