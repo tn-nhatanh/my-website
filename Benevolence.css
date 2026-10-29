@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.header img,
+.text-header img {
+  height: 38px;
+  display: block;
+}
+
+.text-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-header a {
+  text-decoration: none;
+  color: #000;
+}
+
+.text-header a:hover {
+  color: rgb(15, 108, 50);
+}
+
+.text-header p {
+  border-right: 1px solid gray;
+  padding-right: 15px;
+  color: rgb(15, 108, 50);
+  font-style: italic;
+}
+
+.login a {
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  color: #333;
+  font-size: 14px;
+}
+
+.login a:hover {
+  background-color: #d0d0d0;
+}
+
+.content-card-slider {
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.card-1 {
+  width: 700px;
+  flex-shrink: 0;
+}
+
+.card-big {
+  margin-bottom: 20px;
+}
+
+.card-big img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.title-card-big {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.title-card-big:hover {
+  color: rgb(15, 108, 50);
+}
+
+.text-big {
+  font-size: 14px;
+  color: #555;
+}
+
+.group-mini-card {
+  display: flex;
+  gap: 20px;
+}
+
+.card-right {
+  flex: 1;
+}
+
+.card-right-big img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.card-right-big a {
+  font-weight: bold;
+  font-size: 15px;
+  color: #222;
+  text-decoration: none;
+  display: block;
+}
+
+.list-card-right-mini {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-right-mini {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-right-mini img {
+  width: 100px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.card-right-mini a,
+.card-right-mini p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+}
+
+.card-left {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.card-left img {
+  width: 90px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.sidebar-right {
+  width: 470px;
+  min-height: 400px;
+}
