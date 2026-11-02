@@ -3,81 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nhân ái</title>
+    <title>Xe plus</title>
     <link rel="stylesheet" href="Benevolence.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="scrollToTopBtn/scrollToTopBtn.css" />
   </head>
   <body>
     <div class="Newsfeed">
       <div class="header" id="headerID"></div>
       <div class="content-card-slider">
-        <div class="card-1" id="card-1Id">
-          <div class="card-big">
-            <img
-              src="image2\hoan-canh-nguyen-van-thangbao-ky-2-edited-1792242342174.webp"
-              alt=""
-            />
-            <a class="title-card-big">
-              Mã số 6139: Bé trai ung thư, mù một mắt, gia đình nghèo kiệt sức
-              sau 9 năm
-            </a>
-            <p class="text-big">
-              (Dân trí) - Mắc ung thư máu từ năm lên 4 tuổi, bé trai ở Đồng Tháp
-              đã trải qua nhiều lần hóa trị, tái phát bệnh và mù mắt phải. Gia
-              đình nghèo kiệt quệ sau 9 năm chạy chữa cho em.
-            </p>
-          </div>
-          <div class="group-mini-card">
-            <div class="card-right">
-              <div class="card-right-big">
-                <img
-                  src="image2\hoan-canh-nguyen-thi-mai-huyenbao-ky-4-edited-1791977419457.webp"
-                  alt=""
-                />
-                <a>
-                  Mã số 6140: Mẹ đơn thân ôm con trai 5 tuổi mắc ung thư trong
-                  cảnh khốn khó
-                </a>
-              </div>
-              <div class="list-card-right-mini">
-                <div class="card-right-mini">
-                  <img
-                    src="image2\nhan-ai-dan-tri-tang-qua-tre-em-viet-nam-va-trung-quoc-1-2-cropped-1793271661949.webp"
-                    alt=""
-                  />
-                  <a>Bạn đọc Dân trí tiếp sức học sinh vùng biên</a>
-                </div>
-                <div class="card-right-mini">
-                  <img src="" alt="" />
-                  <p></p>
-                </div>
-                <div class="card-right-mini">
-                  <img src="" alt="" />
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="card-right">
-              <div class="card-left">
-                <img src="" alt="" />
-                <p></p>
-              </div>
-              <div class="card-left">
-                <img src="" alt="" />
-                <p></p>
-              </div>
-              <div class="card-left">
-                <img src="" alt="" />
-                <p></p>
-              </div>
-              <div class="card-left">
-                <img src="" alt="" />
-                <p></p>
-              </div>
+        <div class="card-1" id="card-1Id"></div>
+        <div class="slider-right"></div>
+        <div class="slider-container" id="sliderID">
+          <div class="slider-header" id="">
+            <h2 class="slider-title">Danh Sách Xe Nổi Bật</h2>
+            <div class="nav-buttons">
+              <button class="nav-btn" id="prevBtn">&#8592;</button>
+              <button class="nav-btn" id="nextBtn">&#8594;</button>
             </div>
           </div>
+          <div class="header-line"></div>
+          <div class="slider-wrapper">
+            <div class="slides" id="slides"></div>
+          </div>
+          <div class="dots-container" id="dotsContainer"></div>
         </div>
+      </div>
+      <div
+        id="scrollToTopBtn"
+        class="scroll-btn"
+        role="button"
+        tabindex="0"
+        title="Quay lại đầu trang"
+      >
+        <i class="fa-solid fa-arrow-up"></i>
       </div>
     </div>
     <script src="Benevolence.js"></script>
+    <script src="scrollToTopBtn/scrollToTopBtn.js"></script>
   </body>
 </html>
