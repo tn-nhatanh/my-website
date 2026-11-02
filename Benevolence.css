@@ -100,7 +100,7 @@ body {
 }
 
 .title-card-big:hover {
-  color: rgb(15, 108, 50);
+  color: #007bff;
 }
 
 .text-big {
@@ -159,6 +159,13 @@ body {
   font-weight: 600;
   color: #333;
   text-decoration: none;
+}
+
+.card-right-mini a:hover {
+  color: #007bff;
+}
+.card-right-big a:hover {
+  color: #007bff;
 }
 
 .card-left {
