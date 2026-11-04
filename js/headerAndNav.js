@@ -2,7 +2,7 @@ function header() {
   const head = `<div class="header-top">
         <div class="items-center">
           <div class="logo">
-            <img src="./image/logo-3png-1752569761698.webp" alt="" />
+            <img src="../image/logo-3png-1752569761698.webp" alt="" />
           </div>
           <div
             class="weather-placeholder"
@@ -51,26 +51,26 @@ const navbar = [
   {
     classList: "nav-home",
     title: "",
-    link: "index.html",
+    link: "../index.html",
     classLink: "link-home",
     icon: '<i class="fa-solid fa-house"></i>',
   },
   {
     classList: "Video",
-    img: "image/videodt3601-1787928329058.webp",
-    link: "video.html",
+    img: "../image/videodt3601-1787928329058.webp",
+    link: "../pages/video.html",
     classLink: "logo-video",
   },
   {
     classList: "News",
     title: "Mới nhất",
-    link: "LatestNews.html",
+    link: "../pages/LatestNews.html",
     classSpan: "text-nav",
   },
   {
     classList: "World",
     title: "Thế giới",
-    link: "",
+    link: "../pages/home-the-gioi.html",
     classLink: "world-news",
     classSpan: "text-nav",
     classChildren: "list-world",
@@ -84,7 +84,7 @@ const navbar = [
   {
     classList: "Current Affairs",
     title: "Thời sự",
-    link: "",
+    link: "../pages/home-thoi-su.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Chính trị", classItem: "list-nav" },
@@ -259,22 +259,24 @@ const navbar = [
   {
     classList: "Love-people",
     title: "Xe Plus",
-    link: "Benevolence.html",
+    link: "../pages/Benevolence.html",
     classSpan: "text-nav",
   },
 ];
 
 function renderNavbar() {
-  ListHTML = "";
+  let ListHTML = "";
+
   for (let i = 0; i < navbar.length; i++) {
-    miniList = "";
-    if (navbar[i].Children && navbar[i].Children.length > 0) {
+    let miniList = "";
+    let hasChildren = navbar[i].Children && navbar[i].Children.length > 0;
+
+    if (hasChildren) {
       for (let j = 0; j < navbar[i].Children.length; j++) {
         miniList += `<li class="list-nav"><a href="${navbar[i].Children[j].link}">${navbar[i].Children[j].title}</a></li>`;
       }
-    } else {
-      miniList = "";
     }
+
     if (i === 0) {
       ListHTML += `
       <li class="${navbar[i].classList}">
@@ -287,18 +289,25 @@ function renderNavbar() {
        <li class="${navbar[i].classList}">
           <a href="${navbar[i].link}" class="${navbar[i].classLink}"><img src="${navbar[i].img}" alt="" class="${navbar[i].link}"/></a>
         </li>`;
-    } else {
+    } else if (!hasChildren) {
       ListHTML += `
       <li class="${navbar[i].classList}">
+          <a href="${navbar[i].link}" class=""><span class="${navbar[i].classSpan}">${navbar[i].title}</span></a>
+        </li>`;
+    } else {
+      ListHTML += `
+      <li class="${navbar[i].classList} has-child">
           <a href="${navbar[i].link}" class=""><span class="${navbar[i].classSpan}">${navbar[i].title}</span></a>
           <ol>
           ${miniList}
           </ol>
         </li>`;
     }
-    document.getElementById("ListNavbarID").innerHTML = ListHTML;
   }
+  document.getElementById("ListNavbarID").innerHTML = ListHTML;
 }
+
+renderNavbar();
 renderNavbar();
 function newDate() {
   const d = new Date();
