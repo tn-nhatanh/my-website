@@ -23,22 +23,22 @@ document.getElementById("headerID").innerHTML = header;
 const listcardright = [
   {
     title: "Loạt ô tô mới dự kiến ra mắt Việt Nam tháng 11: Hầu hết là SUV",
-    img: "ảnh/mazda-cx-5-2-1793588851935.webp",
+    img: "../ảnh/mazda-cx-5-2-1793588851935.webp",
     link: "#",
   },
   {
     title: "Ô tô điện lần đầu vượt tổng doanh số xe xăng và diesel tại EU",
-    img: "ảnh/evclms-cropped-1793589941954.webp",
+    img: "../ảnh/evclms-cropped-1793589941954.webp",
     link: "#",
   },
   {
     title: "Bồ Đào Nha dự kiến hỗ trợ tới 80% chi phí mua xe điện",
-    img: "ảnh/dacia-spring-electric-facelift-2024-1793546399917.webp",
+    img: "../ảnh/dacia-spring-electric-facelift-2024-1793546399917.webp",
     link: "#",
   },
   {
     title: "Gen Z mua BMW 13 năm tuổi giá gần 300 triệu đồng",
-    img: "ảnh/gen-z-bo-xe-han-sang-bmw-200-trieu-dong-tu-sua-de-kiem-niem-vui-anh1-1793426099845.webp",
+    img: "../ảnh/gen-z-bo-xe-han-sang-bmw-200-trieu-dong-tu-sua-de-kiem-niem-vui-anh1-1793426099845.webp",
     link: "#",
   },
 ];
@@ -47,17 +47,17 @@ const listmini3 = [
   {
     title:
       "Top 10 xu hướng công nghệ hàng đầu của ô tô Trung Quốc trong năm 2027",
-    img: "ảnh/oto-tqscmp-1785991868096.webp",
+    img: "../ảnh/oto-tqscmp-1785991868096.webp",
     link: "#",
   },
   {
     title: "Toyota hybrid thế hệ mới sẽ tiết kiệm nhiên liệu hơn",
-    img: "ảnh/can-canh-suv-toyota-land-cruiser-ban-hybrid-tai-viet-nam-1-edited-1789832335836-1793333807954.webp",
+    img: "../ảnh/can-canh-suv-toyota-land-cruiser-ban-hybrid-tai-viet-nam-1-edited-1789832335836-1793333807954.webp",
     link: "#",
   },
   {
     title: "Lịch sử ra đời kỳ lạ của nhân vật Người lốp Michelin",
-    img: "ảnh/michelinafp-1792824742211.webp",
+    img: "../ảnh/michelinafp-1792824742211.webp",
     link: "#",
   },
 ];
@@ -65,13 +65,13 @@ const listmini3 = [
 const card = [
   {
     title: "Ô tô bay Tesla Roadster định nghĩa lại khái niệm siêu xe",
-    img: "ảnh/tesla-roadster-1792137953813.webp",
+    img: "../ảnh/tesla-roadster-1792137953813.webp",
     text: "Tesla ra mắt Roadster mới bằng màn trình diễn nhào lộn và bay lượn vô tiền khoáng hậu. Tuy nhiên, vẫn còn nhiều câu hỏi bỏ ngỏ, dù hãng khẳng định mẫu siêu xe này có thể bay.",
   },
   {
     title:
       'Cơ chế đằng sau màn "lộn ngược, xoay vòng" trên không của Tesla Roadster',
-    img: "ảnh/noname-ezgifcom-video-to-gif-converter-1-1792227205225.webp",
+    img: "../ảnh/noname-ezgifcom-video-to-gif-converter-1-1792227205225.webp",
   },
   { title: "ff", img: "ffff" },
   { title: "ff", img: "" },

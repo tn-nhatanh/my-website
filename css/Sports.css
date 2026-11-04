@@ -42,7 +42,7 @@
   color: blue;
 }
 
-.Topic-stream a:last-child {
+.Event {
   padding: 4px 12px;
   background: #f4f6fa none;
   border-radius: 13px;
@@ -51,7 +51,7 @@
   text-decoration: none;
 }
 
-.Topic-stream a:last-child:hover {
+.Event:hover {
   padding: 4px 12px;
   background: #f4f6fa none;
   border-radius: 13px;

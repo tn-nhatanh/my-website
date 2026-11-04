@@ -8,6 +8,7 @@ const Sports_list = [
   { title: "Champions League", link: "" },
   { title: "Europa League", link: "" },
 ];
+
 let list = "";
 for (let i = 0; i < Sports_list.length; i++) {
   list += `<li>
@@ -15,13 +16,20 @@ for (let i = 0; i < Sports_list.length; i++) {
             </li>
             `;
 }
+
+const EventI = ["Asian Cup 2027"];
+let eventrender = "";
+for (let i = 0; i < EventI.length; i++) {
+  eventrender += `<a class="Event" href="">${EventI[i]}</a>`;
+}
+
 const sports = `
     <div class="Sports-tab">
     <div class="Sports-header">
-        <div class="name-sport"><span>Thể Thao</span></div>
+        <div class="name-sport"><span>Thể thao</span></div>
         <div class="Topic-stream">
           <a href="">Dòng sự kiện:</a>
-          <a href="" >Asian Cup 2027</a>
+          ${eventrender}
         </div>
     </div>
         <div class="List-sports">
@@ -37,8 +45,8 @@ document.getElementById("SportsID").innerHTML = sports;
 const Slider_list = [
   {
     time: "00h00 · 26/10",
-    Logo1: "image2/lecce.webp",
-    Logo2: "image2/jvts.webp",
+    Logo1: "../image2/lecce.webp",
+    Logo2: "../image2/jvts.webp",
     Score1: "0",
     Score2: "2",
     name1: "Lecce",
@@ -46,8 +54,8 @@ const Slider_list = [
   },
   {
     time: "00h30 · 26/10",
-    Logo1: "image2/Real Sociedad.webp",
-    Logo2: "image2/Levante.webp",
+    Logo1: "../image2/Real Sociedad.webp",
+    Logo2: "../image2/Levante.webp",
     Score1: "2",
     Score2: "1",
     name1: "Real Sociedad",
@@ -55,8 +63,8 @@ const Slider_list = [
   },
   {
     time: "02h45 · 26/10",
-    Logo1: "image2/Udinese.webp",
-    Logo2: "image2/AC Milan.webp",
+    Logo1: "../image2/Udinese.webp",
+    Logo2: "../image2/AC Milan.webp",
     Score1: "0",
     Score2: "2",
     name1: "Udinese",
@@ -64,8 +72,8 @@ const Slider_list = [
   },
   {
     time: "03h00 · 26/10",
-    Logo1: "image2/Barcelona.webp",
-    Logo2: "image2/Real Madrid.webp",
+    Logo1: "../image2/Barcelona.webp",
+    Logo2: "../image2/Real Madrid.webp",
     Score1: "0",
     Score2: "2",
     name1: "Barcelona",
@@ -73,8 +81,8 @@ const Slider_list = [
   },
   {
     time: "02h30 · 27/10",
-    Logo1: "image2/Paris Saint Germain.webp",
-    Logo2: "image2/Lyon.webp",
+    Logo1: "../image2/Paris Saint Germain.webp",
+    Logo2: "../image2/Lyon.webp",
     Score1: "2",
     Score2: "0",
     name1: "Paris Saint Germain",
@@ -82,24 +90,16 @@ const Slider_list = [
   },
   {
     time: "03h00 · 27/10",
-    Logo1: "image2/Sevilla.webp",
-    Logo2: "image2/Osasuna.webp",
+    Logo1: "../image2/Sevilla.webp",
+    Logo2: "../image2/Osasuna.webp",
     Score1: "0",
     Score2: "2",
     name1: "Sevilla",
     name2: "Osasuna",
   },
-  {
-    time: "",
-    Logo1: "",
-    Logo2: "",
-    Score1: "",
-    Score2: "",
-    name1: "",
-    name2: "",
-  },
 ];
-list_slider = "";
+
+let list_slider = "";
 for (let i = 0; i < Slider_list.length; i++) {
   list_slider += `
   <div class="card-score">
