@@ -103,7 +103,7 @@ const navbar = [
   {
     classList: "Law",
     title: "Pháp luật",
-    link: "",
+    link: "../pages/home-phap-luat.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Hồ sơ vụ án", classItem: "list-nav" },
@@ -113,7 +113,7 @@ const navbar = [
   {
     classList: "Health",
     title: "Sức khỏe",
-    link: "",
+    link: "../pages/home-suc-khoe.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Ung Thư", classItem: "list-nav" },
@@ -134,7 +134,7 @@ const navbar = [
   {
     classList: "Lifestyle",
     title: "Đời sống",
-    link: "",
+    link: "../pages/home-doi-song.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Cộng đồng", classItem: "list-nav" },
@@ -153,7 +153,7 @@ const navbar = [
   {
     classList: "Travel",
     title: "Du Lịch",
-    link: "",
+    link: "../pages/home-du-lich.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Tin Tức", classItem: "list-nav" },
@@ -167,7 +167,7 @@ const navbar = [
   {
     classList: "Business",
     title: "Kinh Doanh",
-    link: "",
+    link: "../pages/home-kinh-doanh.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Tài Chính", classItem: "list-nav" },
@@ -182,7 +182,7 @@ const navbar = [
   {
     classList: "Real Estate",
     title: "Bất Động Sản",
-    link: "",
+    link: "../pages/home-bat-dong-san.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Dự Án", classItem: "list-nav" },
@@ -196,7 +196,7 @@ const navbar = [
   {
     classList: "Sports",
     title: "THỂ THAO",
-    link: "",
+    link: "../pages/home-the-thao.html",
     classSpan: "text-nav",
     Children: [
       { link: "Soccer.html", title: "BÓNG ĐÁ", classItem: "list-nav" },
@@ -211,7 +211,7 @@ const navbar = [
   {
     classList: "Entertainment",
     title: "GIẢI TRÍ",
-    link: "",
+    link: "../pages/home-giai-tri.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "HẬU TRƯỜNG", classItem: "list-nav" },
@@ -226,7 +226,7 @@ const navbar = [
   {
     classList: "Education",
     title: "GIÁO DỤC",
-    link: "",
+    link: "../pages/home-giao-duc.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "GÓC PHỤ HUYNH", classItem: "list-nav" },
@@ -245,7 +245,7 @@ const navbar = [
   {
     classList: "Cars / Vehicles",
     title: "XE ++",
-    link: "",
+    link: "../pages/home-xe.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "THỊ TRƯỜNG XE", classItem: "list-nav" },
