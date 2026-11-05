@@ -1,20 +1,20 @@
 const WorldHeadCards = [
   {
     card: 1,
-    img: "../ảnh/elon-musk-reuters1-cropped-1793783589320.webp",
+    img: "./ảnh/elon-musk-reuters1-cropped-1793783589320.webp",
     title: "Tỷ phú Elon Musk lên tiếng sau chiến thắng của đảng Dân chủ",
     text: "Tỷ phú công nghệ Elon Musk nói đùa rằng những nỗ lực của ông đã không giúp đảng Cộng hòa Mỹ giành chiến thắng trước đảng Dân chủ trong cuộc bầu cử quốc hội vừa diễn ra.",
     link: "",
   },
   {
     card: 2,
-    img: "../ảnh/my-tinh-nem-bom-tro-lai-lanh-tu-toi-cao-iran-gui-thong-diep-danh-thep-cropped-1790596531459.webp",
+    img: "./ảnh/my-tinh-nem-bom-tro-lai-lanh-tu-toi-cao-iran-gui-thong-diep-danh-thep-cropped-1790596531459.webp",
     title: "Lãnh tụ Tối cao Iran gửi thông điệp cảnh báo Mỹ sau bầu cử giữa kỳ",
     link: "",
   },
   {
     card: 3,
-    img: "../ảnh/peskovafp-cropped-1773839337265.webp",
+    img: "./ảnh/peskovafp-cropped-1773839337265.webp",
     title: "Phản ứng của Nga, Trung Quốc về kết quả bầu cử giữa kỳ Mỹ",
     link: "",
   },
@@ -45,24 +45,24 @@ const globalNewsList = [
     title:
       "Tổng thống Donald Trump đối mặt thử thách lớn: Cục diện quyền lực mới",
     link: "",
-    img: "../ảnh/biz-trump-1014100170-16030708763902005822642-1793788048211.webp",
+    img: "./ảnh/biz-trump-1014100170-16030708763902005822642-1793788048211.webp",
   },
   {
     title:
       "Kinh tế châu Á duy trì đà tăng trưởng vững chắc bất chấp biến động tỷ giá",
     link: "",
-    img: "../ảnh/image-17-1793698193122.webp",
+    img: "./ảnh/image-17-1793698193122.webp",
   },
   {
     title:
       '"Làn sóng xanh" tiến vào "thành trì đỏ": Lý do đảng Dân chủ Mỹ thắng đậm',
     link: "",
-    img: "../ảnh/dang-dan-chu-cropped-1793781684963.webp",
+    img: "./ảnh/dang-dan-chu-cropped-1793781684963.webp",
   },
   {
     title: "“Làn sóng xanh” bao trùm đêm bầu cử giữa kỳ tại Mỹ",
     link: "",
-    img: "../ảnh/bau-cu-reuters09-1793779495886.webp",
+    img: "./ảnh/bau-cu-reuters09-1793779495886.webp",
   },
 ];
 
@@ -88,7 +88,7 @@ const WorldNewsContainerData = [
     text: "Ngân hàng Trung ương châu Âu đưa ra động thái nới lỏng chính sách tiền tệ nhằm kích thích tăng trưởng kinh tế và giảm áp lực chi phí vay tiêu dùng cho các doanh nghiệp.",
   },
   {
-    img: "../ảnh/korea_japan_1.jpg",
+    img: "./ảnh/korea_japan_1.jpg",
     link: "",
     title:
       "Nhật Bản và Hàn Quốc đẩy mạnh hợp tác công nghệ năng lượng hydrogen sạch",
@@ -137,7 +137,7 @@ const worldTopicsData = [
     catLink: "",
     title: "Trinh sát Ukraine kể về nhiệm vụ tử thần",
     link: "",
-    img: "../ảnh/linh-trinh-sat-ukraineki-cropped-1793766092737.webp",
+    img: "./ảnh/linh-trinh-sat-ukraineki-cropped-1793766092737.webp",
   },
   {
     category: "PHÂN TÍCH - BÌNH LUẬN",
@@ -145,7 +145,7 @@ const worldTopicsData = [
     title:
       "Tổng thống Donald Trump đối mặt thử thách lớn: Cục diện quyền lực mới",
     link: "",
-    img: "../ảnh/biz-trump-1014100170-16030708763902005822642-1793788048211 (1).webp",
+    img: "./ảnh/biz-trump-1014100170-16030708763902005822642-1793788048211 (1).webp",
   },
   {
     category: "THẾ GIỚI ĐÓ ĐÂY",
@@ -153,7 +153,7 @@ const worldTopicsData = [
     title:
       "Vụ rơi máy bay ở Mỹ: Phát hiện bất ngờ và tiếng hét của phi công phụ",
     link: "",
-    img: "../ảnh/investigators-examine-site-learjet-crashed-112054387147949e-1793776648359.webp",
+    img: "./ảnh/investigators-examine-site-learjet-crashed-112054387147949e-1793776648359.webp",
   },
   {
     category: "KIỀU BÀO",
@@ -161,7 +161,7 @@ const worldTopicsData = [
     title:
       "Kiến tạo cơ chế xây dựng mạng lưới chuyên gia kiều bào về công nghệ",
     link: "",
-    img: "../ảnh/thu-truong-ngoai-giaobng-cropped-cropped-1786416171552.webp",
+    img: "./ảnh/thu-truong-ngoai-giaobng-cropped-cropped-1786416171552.webp",
   },
 ];
 

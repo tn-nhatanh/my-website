@@ -45,8 +45,8 @@ document.getElementById("SportsID").innerHTML = sports;
 const Slider_list = [
   {
     time: "00h00 · 26/10",
-    Logo1: "../image2/lecce.webp",
-    Logo2: "../image2/jvts.webp",
+    Logo1: "./image2/lecce.webp",
+    Logo2: "./image2/jvts.webp",
     Score1: "0",
     Score2: "2",
     name1: "Lecce",
@@ -54,8 +54,8 @@ const Slider_list = [
   },
   {
     time: "00h30 · 26/10",
-    Logo1: "../image2/Real Sociedad.webp",
-    Logo2: "../image2/Levante.webp",
+    Logo1: "./image2/Real Sociedad.webp",
+    Logo2: "./image2/Levante.webp",
     Score1: "2",
     Score2: "1",
     name1: "Real Sociedad",
@@ -63,8 +63,8 @@ const Slider_list = [
   },
   {
     time: "02h45 · 26/10",
-    Logo1: "../image2/Udinese.webp",
-    Logo2: "../image2/AC Milan.webp",
+    Logo1: "./image2/Udinese.webp",
+    Logo2: "./image2/AC Milan.webp",
     Score1: "0",
     Score2: "2",
     name1: "Udinese",
@@ -72,8 +72,8 @@ const Slider_list = [
   },
   {
     time: "03h00 · 26/10",
-    Logo1: "../image2/Barcelona.webp",
-    Logo2: "../image2/Real Madrid.webp",
+    Logo1: "./image2/Barcelona.webp",
+    Logo2: "./image2/Real Madrid.webp",
     Score1: "0",
     Score2: "2",
     name1: "Barcelona",
@@ -81,8 +81,8 @@ const Slider_list = [
   },
   {
     time: "02h30 · 27/10",
-    Logo1: "../image2/Paris Saint Germain.webp",
-    Logo2: "../image2/Lyon.webp",
+    Logo1: "./image2/Paris Saint Germain.webp",
+    Logo2: "./image2/Lyon.webp",
     Score1: "2",
     Score2: "0",
     name1: "Paris Saint Germain",
@@ -90,8 +90,8 @@ const Slider_list = [
   },
   {
     time: "03h00 · 27/10",
-    Logo1: "../image2/Sevilla.webp",
-    Logo2: "../image2/Osasuna.webp",
+    Logo1: "./image2/Sevilla.webp",
+    Logo2: "./image2/Osasuna.webp",
     Score1: "0",
     Score2: "2",
     name1: "Sevilla",

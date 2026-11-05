@@ -2,7 +2,7 @@ function header() {
   const head = `<div class="header-top">
         <div class="items-center">
           <div class="logo">
-            <img src="../image/logo-3png-1752569761698.webp" alt="" />
+            <img src="./image/logo-3png-1752569761698.webp" alt="" />
           </div>
           <div
             class="weather-placeholder"
@@ -51,26 +51,26 @@ const navbar = [
   {
     classList: "nav-home",
     title: "",
-    link: "../index.html",
+    link: "./index.html",
     classLink: "link-home",
     icon: '<i class="fa-solid fa-house"></i>',
   },
   {
     classList: "Video",
-    img: "../image/videodt3601-1787928329058.webp",
-    link: "../pages/video.html",
+    img: "./image/videodt3601-1787928329058.webp",
+    link: "./pages/video.html",
     classLink: "logo-video",
   },
   {
     classList: "News",
     title: "Mới nhất",
-    link: "../pages/LatestNews.html",
+    link: "./pages/LatestNews.html",
     classSpan: "text-nav",
   },
   {
     classList: "World",
     title: "Thế giới",
-    link: "../pages/home-the-gioi.html",
+    link: "./pages/home-the-gioi.html",
     classLink: "world-news",
     classSpan: "text-nav",
     classChildren: "list-world",
@@ -84,7 +84,7 @@ const navbar = [
   {
     classList: "Current Affairs",
     title: "Thời sự",
-    link: "../pages/home-thoi-su.html",
+    link: "./pages/home-thoi-su.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Chính trị", classItem: "list-nav" },
@@ -259,7 +259,7 @@ const navbar = [
   {
     classList: "Love-people",
     title: "Xe Plus",
-    link: "../pages/Benevolence.html",
+    link: "./pages/Benevolence.html",
     classSpan: "text-nav",
   },
 ];
