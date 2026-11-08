@@ -1,8 +1,13 @@
+const isInsidePages = window.location.pathname.includes("/pages/");
+
+const prefix = isInsidePages ? "../" : "";
+const loginPath = isInsidePages ? "LogIn.html" : "pages/LogIn.html";
+
 function header() {
   const head = `<div class="header-top">
         <div class="items-center">
           <div class="logo">
-            <img src="../image/logo-3png-1752569761698.webp" alt="" />
+            <img src="${prefix}image/logo-3png-1752569761698.webp" alt="" />
           </div>
           <div
             class="weather-placeholder"
@@ -33,7 +38,7 @@ function header() {
         <div class="login">
           <i class="fa-regular fa-user"></i>
           <div class="button-login">
-            <a href="LogIn.html" id="linkbuttonlogin"
+            <a href="${loginPath}" id="linkbuttonlogin"
               ><button
                 type="button"
               >
@@ -51,26 +56,26 @@ const navbar = [
   {
     classList: "nav-home",
     title: "",
-    link: "../index.html",
+    link: prefix + "index.html",
     classLink: "link-home",
     icon: '<i class="fa-solid fa-house"></i>',
   },
   {
     classList: "Video",
-    img: "../image/videodt3601-1787928329058.webp",
-    link: "../pages/video.html",
+    img: prefix + "image/videodt3601-1787928329058.webp",
+    link: prefix + "pages/video.html",
     classLink: "logo-video",
   },
   {
     classList: "News",
     title: "Mới nhất",
-    link: "../pages/LatestNews.html",
+    link: prefix + "pages/LatestNews.html",
     classSpan: "text-nav",
   },
   {
     classList: "World",
     title: "Thế giới",
-    link: "../pages/home-the-gioi.html",
+    link: prefix + "pages/home-the-gioi.html",
     classLink: "world-news",
     classSpan: "text-nav",
     classChildren: "list-world",
@@ -84,7 +89,7 @@ const navbar = [
   {
     classList: "Current Affairs",
     title: "Thời sự",
-    link: "../pages/home-thoi-su.html",
+    link: prefix + "pages/home-thoi-su.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Chính trị", classItem: "list-nav" },
@@ -103,7 +108,7 @@ const navbar = [
   {
     classList: "Law",
     title: "Pháp luật",
-    link: "../pages/home-phap-luat.html",
+    link: prefix + "pages/home-phap-luat.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Hồ sơ vụ án", classItem: "list-nav" },
@@ -113,7 +118,7 @@ const navbar = [
   {
     classList: "Health",
     title: "Sức khỏe",
-    link: "../pages/home-suc-khoe.html",
+    link: prefix + "pages/home-suc-khoe.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Ung Thư", classItem: "list-nav" },
@@ -134,7 +139,7 @@ const navbar = [
   {
     classList: "Lifestyle",
     title: "Đời sống",
-    link: "../pages/home-doi-song.html",
+    link: prefix + "pages/home-doi-song.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Cộng đồng", classItem: "list-nav" },
@@ -153,7 +158,7 @@ const navbar = [
   {
     classList: "Travel",
     title: "Du Lịch",
-    link: "../pages/home-du-lich.html",
+    link: prefix + "pages/home-du-lich.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Tin Tức", classItem: "list-nav" },
@@ -167,7 +172,7 @@ const navbar = [
   {
     classList: "Business",
     title: "Kinh Doanh",
-    link: "../pages/home-kinh-doanh.html",
+    link: prefix + "pages/home-kinh-doanh.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Tài Chính", classItem: "list-nav" },
@@ -182,7 +187,7 @@ const navbar = [
   {
     classList: "Real Estate",
     title: "Bất Động Sản",
-    link: "../pages/home-bat-dong-san.html",
+    link: prefix + "pages/home-bat-dong-san.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "Dự Án", classItem: "list-nav" },
@@ -196,7 +201,7 @@ const navbar = [
   {
     classList: "Sports",
     title: "THỂ THAO",
-    link: "../pages/home-the-thao.html",
+    link: prefix + "pages/home-the-thao.html",
     classSpan: "text-nav",
     Children: [
       { link: "Soccer.html", title: "BÓNG ĐÁ", classItem: "list-nav" },
@@ -211,7 +216,7 @@ const navbar = [
   {
     classList: "Entertainment",
     title: "GIẢI TRÍ",
-    link: "../pages/home-giai-tri.html",
+    link: prefix + "pages/home-giai-tri.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "HẬU TRƯỜNG", classItem: "list-nav" },
@@ -226,7 +231,7 @@ const navbar = [
   {
     classList: "Education",
     title: "GIÁO DỤC",
-    link: "../pages/home-giao-duc.html",
+    link: prefix + "pages/home-giao-duc.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "GÓC PHỤ HUYNH", classItem: "list-nav" },
@@ -245,7 +250,7 @@ const navbar = [
   {
     classList: "Cars / Vehicles",
     title: "XE ++",
-    link: "../pages/home-xe.html",
+    link: prefix + "pages/home-xe.html",
     classSpan: "text-nav",
     Children: [
       { link: "", title: "THỊ TRƯỜNG XE", classItem: "list-nav" },
@@ -259,7 +264,7 @@ const navbar = [
   {
     classList: "Love-people",
     title: "Xe Plus",
-    link: "../pages/Benevolence.html",
+    link: prefix + "pages/Benevolence.html",
     classSpan: "text-nav",
   },
 ];
@@ -287,7 +292,7 @@ function renderNavbar() {
     } else if (i === 1) {
       ListHTML += ` 
        <li class="${navbar[i].classList}">
-          <a href="${navbar[i].link}" class="${navbar[i].classLink}"><img src="${navbar[i].img}" alt="" class="${navbar[i].link}"/></a>
+          <a href="${navbar[i].link}" class="${navbar[i].classLink}"><img src="${navbar[i].img}" alt="" /></a>
         </li>`;
     } else if (!hasChildren) {
       ListHTML += `
@@ -308,7 +313,7 @@ function renderNavbar() {
 }
 
 renderNavbar();
-renderNavbar();
+
 function newDate() {
   const d = new Date();
   const weekday = [
@@ -327,32 +332,37 @@ function newDate() {
   document.getElementById("day-header").innerHTML =
     day + ", " + date + "/" + (month + 1) + "/" + year;
 }
-
 newDate();
+
 function ClickLogIn() {
   const link = document.getElementById("linkbuttonlogin");
-
-  link.addEventListener("click", function (event) {
-    const result = confirm("Bạn có muốn chuyển sang trang đăng nhập không?");
-
-    if (!result) {
-      event.preventDefault(); //hủy chuyển trang
-    }
-  });
+  if (link) {
+    link.addEventListener("click", function (event) {
+      const result = confirm("Bạn có muốn chuyển sang trang đăng nhập không?");
+      if (!result) {
+        event.preventDefault();
+      }
+    });
+  }
 }
 ClickLogIn();
 
 function languageText() {
   const btnEnglish = document.getElementById("tiengAnh");
   const btnVietNamese = document.getElementById("tiengViet");
-  btnEnglish.addEventListener("click", function () {
-    document.getElementById("btnTextLanguage").innerText = "Tiếng Anh";
-  });
-  btnVietNamese.addEventListener("click", function () {
-    document.getElementById("btnTextLanguage").innerText = "Tiếng Việt";
-  });
+  if (btnEnglish) {
+    btnEnglish.addEventListener("click", function () {
+      document.getElementById("btnTextLanguage").innerText = "Tiếng Anh";
+    });
+  }
+  if (btnVietNamese) {
+    btnVietNamese.addEventListener("click", function () {
+      document.getElementById("btnTextLanguage").innerText = "Tiếng Việt";
+    });
+  }
 }
 languageText();
+
 const footer = [
   { logo: "image/logo-3png-1752569761698.webp", class: "logo" },
   { line: 1, text: "Cơ quan của Bộ Nội vụ" },
@@ -373,6 +383,7 @@ const footer = [
   { line: 7, text: "Hotline TPHCM: 0974-567-567" },
   { line: 8, text: "Email: info@dantri.com.vn" },
 ];
+
 function renderFooter() {
   let logo = "";
   let textInLine = "";
@@ -382,7 +393,7 @@ function renderFooter() {
     if (i === 0) {
       logo = `
   <div class="${footer[i].class}">
-    <img src="${footer[i].logo}" alt="" />
+    <img src="${prefix}${footer[i].logo}" alt="" />
   </div>
       `;
     } else {

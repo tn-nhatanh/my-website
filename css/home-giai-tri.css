@@ -41,7 +41,7 @@
 }
 
 .title-card-big:hover {
-  color: #c026d3;
+  color: #007bff;
 }
 
 .text-card {
@@ -90,7 +90,7 @@
 }
 
 .text-mini-card:hover {
-  color: #c026d3;
+  color: #007bff;
 }
 
 #affairs-subID {
@@ -129,7 +129,7 @@
 }
 
 #affairs-subID .card-list a:hover {
-  color: #c026d3;
+  color: #007bff;
 }
 
 #AffairsListContainerID {
@@ -173,7 +173,7 @@
 }
 
 #AffairsListContainerID .info-box a:hover {
-  color: #c026d3;
+  color: #007bff;
 }
 
 #AffairsListContainerID .info-box p {

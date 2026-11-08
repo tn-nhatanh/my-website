@@ -129,3 +129,46 @@ for (let i = 0; i < AffairsListContainerData.length; i++) {
 }
 document.getElementById("AffairsListContainerID").innerHTML =
   affairsContainerHTML;
+
+const worldTopicsData = [
+  {
+    category: "",
+    catLink: "",
+    title: "",
+    link: "",
+    img: "",
+  },
+  {
+    category: "",
+    catLink: "",
+    title: "",
+    link: "",
+    img: "",
+  },
+  {
+    category: "",
+    catLink: "",
+    title: "",
+    link: "",
+    img: "",
+  },
+  {
+    category: "",
+    catLink: "",
+    title: "",
+    link: "",
+    img: "",
+  },
+];
+
+let worldTopicsHTML = "";
+for (let i = 0; i < worldTopicsData.length; i++) {
+  worldTopicsHTML += `
+    <div class="topic-card">
+      <a href="${worldTopicsData[i].catLink}" class="topic-category">${worldTopicsData[i].category}</a>
+      <img src="${worldTopicsData[i].img}" alt="${worldTopicsData[i].title}" />
+      <a href="${worldTopicsData[i].link}" class="topic-title">${worldTopicsData[i].title}</a>
+    </div>
+  `;
+}
+document.getElementById("WorldTopicsID").innerHTML = worldTopicsHTML;

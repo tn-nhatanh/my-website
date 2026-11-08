@@ -10,9 +10,9 @@ for (let i = 0; i < listHeader.length; i++) {
   listhead += `<div class="text"><a href="${listHeader[i].link}">${listHeader[i].text}</a></div>`;
 }
 const header = `
-            <a href="index.html"><img src="image/logo-3png-1752569761698.webp" alt="" /></a>
+            <a href="../index.html"><img src="../image/logo-3png-1752569761698.webp" alt="" /></a>
         <div class="text-header">
-          <img src="image2/static-logo-nhan-ai.1-0-1.81cfead10dadfa8606b4.png" alt="" />
+          <img src="../image2/static-logo-nhan-ai.1-0-1.81cfead10dadfa8606b4.png" alt="" />
           <p>Tấm lòng Diesel</p>
           ${listhead}
         </div>
