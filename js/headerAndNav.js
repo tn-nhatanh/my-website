@@ -57,7 +57,7 @@ const navbar = [
   },
   {
     classList: "Video",
-    img: "../image/videodt3601-1787928329058.webp",
+    img: "image/videodt3601-1787928329058.webp",
     link: "../pages/video.html",
     classLink: "logo-video",
   },
