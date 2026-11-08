@@ -64,7 +64,7 @@ const navbar = [
   {
     classList: "News",
     title: "Mới nhất",
-    link: "../pages/LatestNews.html",
+    link: "pages/LatestNews.html",
     classSpan: "text-nav",
   },
   {
