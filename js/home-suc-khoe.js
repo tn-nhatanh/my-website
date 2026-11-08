@@ -1,21 +1,21 @@
 const AffairsHeadCards = [
   {
     card: 1,
-    img: "",
-    title: "",
-    text: "",
+    img: "../image-3/suckhoe1.webp",
+    title: "Hơn 170.000 ca sốt xuất huyết, chuyên gia cảnh báo dịch khó lường",
+    text: "Trong 10 tháng đầu năm, cả nước ghi nhận hơn 170.000 ca sốt xuất huyết, 21 người tử vong. Chuyên gia cảnh báo bệnh diễn biến khó lường, không còn theo mùa rõ rệt.",
     link: "",
   },
   {
     card: 2,
-    img: "",
-    title: "",
+    img: "../image-3/suckhoe2.webp",
+    title: "Thị lực giảm dần nhưng không đau mắt, có cần kiểm tra võng mạc?",
     link: "",
   },
   {
     card: 3,
-    img: "",
-    title: "",
+    img: "../image-3/suckhoe3.webp",
+    title: "Cơ sở y tế có 9 bác sĩ, chưa đáp ứng nhu cầu khám chữa bệnh",
     link: "",
   },
 ];
@@ -42,24 +42,26 @@ document.getElementById("affairs-spotlightID").innerHTML = AffairsHeadHTML;
 
 const affairsNewsList = [
   {
-    title: "",
+    title: "Hai vợ chồng ngộ độc sau khi ăn củ ấu tàu, người vợ sốc tim",
+    img: "../image-3/suckhoe4.webp",
     link: "",
-    img: "",
   },
   {
-    title: "",
+    title:
+      "Cảnh giác viêm đường hô hấp: 5 dấu hiệu thường gặp, 6 cách phòng ngừa",
     link: "",
-    img: "",
+    img: "../image-3/suckhoe5.webp",
   },
   {
-    title: "",
+    title:
+      "Nhiều gia đình ở TPHCM đảo lộn cuộc sống vì sốt xuất huyết, tay chân miệng",
     link: "",
-    img: "",
+    img: "../image-3/suckhoe6.webp",
   },
   {
-    title: "",
+    title: "Những dấu hiệu cảnh báo ung thư nội mạc tử cung",
     link: "",
-    img: "",
+    img: "../image-3/suckhoe7.webp",
   },
 ];
 
@@ -71,40 +73,42 @@ document.getElementById("affairs-subID").innerHTML = affairsCardsHTML;
 
 const AffairsListContainerData = [
   {
-    img: "",
+    img: "../image-3/suckhoe8.webp",
     link: "",
-    title: "",
-    text: "",
+    title:
+      "Bộ Y tế yêu cầu điều tra nguồn gốc thực phẩm trong vụ nghi ngộ độc bánh mì",
+    text: "Cục An toàn thực phẩm (Bộ Y tế) cho biết, trong vụ 17 người nhập viện nghi ngộ độc thực phẩm sau khi ăn bánh mì ở Quảng Ngãi, cần điều tra, truy xuất nguồn gốc thực phẩm.",
   },
   {
-    img: "",
+    img: "../image-3/suckhoe9.webp",
     link: "",
-    title: "",
-    text: "",
+    title: "Nam sinh 18 tuổi phát hiện thiếu hụt hormone sinh dục nghiêm trọng",
+    text: "18 tuổi nhưng chiều dài dương vật khi kéo căng chỉ khoảng 4cm, tinh hoàn nhỏ. Qua thăm khám, bác sĩ phát hiện nam sinh bị suy sinh dục thứ phát, nghi do hội chứng Kallmann.",
   },
   {
-    img: "",
+    img: "../image-3/suckhoe10.webp",
     link: "",
-    title: "",
-    text: "",
+    title: "PGS.TS Vũ Văn Giáp phụ trách, điều hành Bệnh viện Bạch Mai",
+    text: "Bộ trưởng Bộ Y tế Đào Hồng Lan vừa ký quyết định giao PGS.TS Vũ Văn Giáp, Phó Giám đốc phụ trách chuyên môn Bệnh viện Bạch Mai đảm nhiệm công việc phụ trách, điều hành Bệnh viện Bạch Mai từ ngày 6/11.",
   },
   {
-    img: "",
+    img: "../image-3/suckhoe11.webp",
     link: "",
-    title: "",
-    text: "",
+    title: "Đề xuất cấm hoàn toàn trưng bày thuốc lá",
+    text: "Dù đã có quy định giới hạn số lượng thuốc lá được trưng bày từ năm 2012, vi phạm vẫn diễn ra phổ biến. WHO và Bộ Y tế đề xuất cấm trưng bày để loại bỏ một kênh quảng cáo, tiếp thị sản phẩm này.",
   },
   {
-    img: "",
+    img: "../image-3/suckhoe12.webp",
     link: "",
-    title: "",
-    text: "",
+    title: "Sửa Luật An toàn thực phẩm, chuyển mạnh từ tiền kiểm sang hậu kiểm",
+    text: "Dự thảo Luật An toàn thực phẩm (sửa đổi) hướng tới thay đổi phương thức quản lý, tăng kiểm soát nguy cơ xuyên suốt chuỗi cung ứng, đồng thời đẩy mạnh hậu kiểm.",
   },
   {
-    img: "",
+    img: "../image-3/suckhoe13.webp",
     link: "",
-    title: "",
-    text: "",
+    title:
+      "Nhiều thuốc điều trị ung thư mới, người bệnh vẫn khó tiếp cận vì sao?",
+    text: "Nhiều loại thuốc mới cập nhật trong phác đồ điều trị ung thư trên thế giới. Với ung thư tụy, trước đây người bệnh ở giai đoạn muộn thường chỉ sống thêm 2-3 tháng, nay có thể kéo dài gấp 2-3 lần.",
   },
 ];
 
