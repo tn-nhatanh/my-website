@@ -132,32 +132,35 @@ document.getElementById("AffairsListContainerID").innerHTML =
 
 const worldTopicsData = [
   {
-    category: "",
+    category: "Kinh doanh",
     catLink: "",
-    title: "",
+    title: "Sau California Fitness, đến lượt Citigym đóng cửa thêm chi nhánh",
     link: "",
-    img: "",
+    img: "../image/ra-mat-4-clb-trong-nam-2019-citigym-co-toc-do-phat-trien-dan-dau-nganh-fitnessdocx-1576920476374.webp",
   },
   {
-    category: "",
+    category: "Thời sự",
     catLink: "",
-    title: "",
+    title:
+      "“Không doanh nghiệp nào có thể tiếp cận để đưa nhóm lợi ích vào chính sách”",
     link: "",
-    img: "",
+    img: "../image-3/dao-hong-lan-edited-1794221311658.webp",
   },
   {
-    category: "",
+    category: "Sức khỏe",
     catLink: "",
-    title: "",
+    title:
+      "Cô gái đột quỵ khi lái xe, cảnh báo nguy cơ từ thói quen không lành mạnh",
     link: "",
-    img: "",
+    img: "../image-3/screen-shot-2026-11-08-at-83755-am-1794102020996.webp",
   },
   {
-    category: "",
+    category: "Bất động sản",
     catLink: "",
-    title: "",
+    title:
+      "Khu đô thị thể thao lớn nhất nước dự kiến tăng vốn trên 1,2 triệu tỷ đồng",
     link: "",
-    img: "",
+    img: "../image-3/sieu-du-an-olympic-cua-ty-phu-pham-nhat-vuong-co-gi-dac-biet-cropped-1765962897274.webp",
   },
 ];
 
