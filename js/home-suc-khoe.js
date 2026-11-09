@@ -127,3 +127,33 @@ for (let i = 0; i < AffairsListContainerData.length; i++) {
 }
 document.getElementById("AffairsListContainerID").innerHTML =
   affairsContainerHTML;
+
+document.getElementById("HealthLookupID").innerHTML = `
+  <div class="health-lookup-heading">
+    <span class="health-lookup-icon" aria-hidden="true">
+      <i class="fa-solid fa-plus"></i>
+    </span>
+    <h2>Tra cứu các bệnh</h2>
+  </div>
+  <div class="health-lookup-field">
+    <input
+      type="search"
+      placeholder="Nhập tên bệnh hoặc triệu chứng mắc phải"
+      aria-label="Nhập tên bệnh hoặc triệu chứng mắc phải"
+    />
+    <button class="health-lookup-search" type="button" aria-label="Tra cứu">
+      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+    </button>
+  </div>
+  <div class="health-lookup-footer">
+    <p>Tra cứu thông tin sức khỏe</p>
+    <div class="health-lookup-controls">
+      <button type="button" aria-label="Trước">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button type="button" aria-label="Tiếp theo">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+`;

@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="../css/article-pagination.css" />
   </head>
   <body>
     <header class="header" id="headerID"></header>
@@ -27,6 +28,11 @@
     </div>
     <div class="world-sub" id="world-subID"></div>
     <div class="WorldListContainer" id="WorldListContainerID"></div>
+    <div
+      class="article-pagination"
+      data-list-id="WorldListContainerID"
+      data-page-key="home-the-gioi"
+    ></div>
     <div class="World-topics" id="WorldTopicsID"></div>
     <footer id="footerID"></footer>
     <div
@@ -42,5 +48,7 @@
     <script src="../scrollToTopBtn/scrollToTopBtn.js"></script>
     <script src="../js/home-the-gioi-header.js"></script>
     <script src="../js/home-the-gioi.js"></script>
+    <script src="../js/article-pages-data.js"></script>
+    <script src="../js/article-pagination.js"></script>
   </body>
 </html>

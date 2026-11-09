@@ -1,0 +1,33 @@
+.article-pagination {
+  width: 100%;
+  max-width: 1000px;
+  margin: 25px auto 40px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pagination-buttons button {
+  min-width: 48px;
+  height: 48px;
+  padding: 0 12px;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pagination-buttons button:hover {
+  border-color: #2d6259;
+}
+
+.pagination-buttons button.active {
+  border-color: #2d6259;
+  background: #2d6259;
+  color: #fff;
+}
