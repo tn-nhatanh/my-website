@@ -51,5 +51,6 @@ function sliderHTML() {
     HTMLslider += `<li  class="item" id="slide-${sliderList[i].id}"><img src="${sliderList[i].img}" alt=""><a href="${sliderList[i].Link}" class="link-slider"><span class="text-item" >${sliderList[i].text}</span></a></li>`;
   }
   document.getElementById("sliderID").innerHTML = HTMLslider;
+  applyPageTranslations();
 }
 sliderHTML();
