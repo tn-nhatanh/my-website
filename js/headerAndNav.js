@@ -254,7 +254,7 @@ const navbar = [
   {
     classList: "Video",
     img: prefix + "image/videodt3601-1787928329058.webp",
-    link: prefix + "pages/video.html",
+    link: prefix + "https://tn-nhatanh.github.io/GameLoiChoi/",
     classLink: "logo-video",
   },
   {
